@@ -1,4 +1,9 @@
+// 수정된 코드
 function solution(x1, x2, x3, x4) {
+  return (x1 || x2) && (x3 || x4);
+}
+
+/* function solution(x1, x2, x3, x4) {
   const X = calc(x1, x2, 'OR');
   const Y = calc(x3, x4, 'OR');
   return calc(X, Y, 'AND');
@@ -25,3 +30,4 @@ function calc(a, b, type) {
   }
   return X;
 }
+*/
